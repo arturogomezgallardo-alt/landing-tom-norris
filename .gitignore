@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# dependencies
+node_modules/
+
+# build
+dist/
+
+# logs
+npm-debug.log*
+
+# env
+.env
+
+# vscode / visual studio
+.vs/
+.vscode/
+
+# system
+.DS_Store

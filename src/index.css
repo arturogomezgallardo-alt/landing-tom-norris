@@ -1,0 +1,68 @@
+/* RESET BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE DEL SITIO */
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e7ec 100%) !important;
+    color: #111;
+}
+
+/* SCROLL SUAVE */
+html {
+    scroll-behavior: smooth;
+}
+
+/* EVITA QUE EL NAVBAR TAPe LOS TITULOS */
+section {
+    scroll-margin-top: 90px;
+}
+
+/* TITULOS GENERALES */
+h1, h2, h3, h4 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* TEXTO SECUNDARIO */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* BOTON DORADO (marca Tom Norris) */
+.btn-gold {
+    background-color: #C8A75B;
+    color: #111;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s;
+}
+
+    .btn-gold:hover {
+        background-color: #b89445;
+        transform: translateY(-2px);
+    }
+
+/* CARDS PREMIUM */
+.card {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+/* LINKS NAVBAR */
+.nav-link {
+    transition: 0.3s;
+}
+
+    .nav-link:hover {
+        color: #C8A75B !important;
+    }
